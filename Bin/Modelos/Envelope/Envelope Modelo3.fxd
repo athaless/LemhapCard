@@ -1,0 +1,57 @@
+document Document
+  Height = 347000
+  ID = 1
+  Width = 716000
+  object Layer1: TFlexLayer
+    ID = 3
+    Visible = True
+  end
+  object Scheme1: TFlexScheme
+    property Brush
+      Color = 16777215
+    end
+    Default = True
+    ID = 2
+    object Text1: TFlexText
+      Alignment = Center
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 15750
+      end
+      Height = 24000
+      ID = 5
+      Layer = Layer1
+      Left = 235500
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Luis Miguel de Souza' )
+      Top = 68000
+      Width = 236000
+    end
+    object Text2: TFlexText
+      Alignment = Center
+      AutoSize = True
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 8250
+      end
+      Height = 42000
+      ID = 6
+      Layer = Layer1
+      Left = 274500
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Av. João Tavares, 340'
+        'Cidade Baixa - Porto Alegre - RS'
+        'CEP: 95-010-210' )
+      Top = 290000
+      Width = 158000
+    end
+  end
+end

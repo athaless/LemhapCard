@@ -1,0 +1,81 @@
+document Document
+  Height = 905000
+  ID = 1
+  Width = 640000
+  object Layer1: TFlexLayer
+    ID = 3
+    Visible = True
+  end
+  object Scheme1: TFlexScheme
+    property Brush
+      Color = 16777215
+    end
+    Default = True
+    ID = 2
+    object Curve1: TFlexCurve
+      Height = 1000
+      ID = 4
+      Layer = Layer1
+      Left = 12000
+      PathPoints = {
+        020000000000000000000000A0560900000000000001 }
+      Top = 38000
+      Width = 613000
+    end
+    object Text2: TFlexText
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 12000
+      end
+      Height = 19000
+      ID = 6
+      Layer = Layer1
+      Left = 12000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Rogério Coimbra' )
+      Top = 15000
+      Width = 131000
+    end
+    object Text3: TFlexText
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 9750
+      end
+      Height = 18000
+      ID = 7
+      Layer = Layer1
+      Left = 12000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Gerente' )
+      Top = 52000
+      Width = 55000
+    end
+    object Text1: TFlexText
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 8250
+      end
+      Height = 32000
+      ID = 5
+      Layer = Layer1
+      Left = 12000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Av. Cel. Lucas de Oliveira, 1550 / sala 304'
+        'Petrópolis - Porto Alegre - RS' )
+      Top = 862000
+      Width = 226000
+    end
+  end
+end

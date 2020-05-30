@@ -1,0 +1,104 @@
+document Document
+  Height = 167902
+  ID = 1
+  Width = 290000
+  object Layer1: TFlexLayer
+    ID = 3
+    Visible = True
+  end
+  object Scheme1: TFlexScheme
+    property Brush
+      Color = 16777215
+    end
+    Default = True
+    ID = 2
+    object Text1: TFlexText
+      property Font
+        Charset = 0
+        Color = -2147483640
+        Name = 'Monotype Corsiva'
+        Size = 36000
+        Style = [fsItalic]
+      end
+      Height = 49000
+      ID = 4
+      Layer = Layer1
+      Left = 75000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'S' )
+      Top = 22000
+      Width = 27000
+    end
+    object Text2: TFlexText
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 8250
+      end
+      Height = 12000
+      ID = 5
+      Layer = Layer1
+      Left = 103000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Supervisora de Vendas' )
+      Top = 71000
+      Width = 117000
+    end
+    object Box1: TFlexBox
+      property Brush
+        Color = 0
+      end
+      Height = 19000
+      ID = 6
+      Layer = Layer1
+      Left = 100000
+      Top = 49000
+      Width = 178000
+    end
+    object Text3: TFlexText
+      property Font
+        Color = 16777215
+        Name = Arial
+        Size = 8250
+      end
+      Height = 15000
+      ID = 7
+      Layer = Layer1
+      Left = 102000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'uzana Alves' )
+      Top = 51000
+      Width = 65000
+    end
+    object Text4: TFlexText
+      Alignment = RightJustify
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 6000
+      end
+      Height = 29000
+      ID = 8
+      Layer = Layer1
+      Left = 141000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Rua Júlio Vieira, 1200'
+        'Tristeza - Porto Alegre - RS'
+        'fone: 51 3249-5660 fax: 51 3249-1212' )
+      Top = 131000
+      Width = 138000
+    end
+  end
+end

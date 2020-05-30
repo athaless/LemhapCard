@@ -1,0 +1,84 @@
+document Document
+  Height = 905000
+  ID = 1
+  Width = 640000
+  object Layer1: TFlexLayer
+    ID = 3
+    Visible = True
+  end
+  object Scheme1: TFlexScheme
+    property Brush
+      Color = 16777215
+    end
+    Default = True
+    ID = 2
+    object Text1: TFlexText
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 8250
+      end
+      Height = 32000
+      ID = 5
+      Layer = Layer1
+      Left = 12000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Av. Cel. Lucas de Oliveira, 1550 / sala 304'
+        'Petrópolis - Porto Alegre - RS' )
+      Top = 866000
+      Width = 226000
+    end
+    object Box1: TFlexBox
+      property Brush
+        Color = 0
+      end
+      Height = 17000
+      ID = 4
+      Layer = Layer1
+      Left = 36000
+      Top = 28000
+      Width = 497000
+    end
+    object Text2: TFlexText
+      property Font
+        Color = 16777215
+        Name = Arial
+        Size = 8250
+      end
+      Height = 14000
+      ID = 6
+      Layer = Layer1
+      Left = 40000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'lvaro dos Santos' )
+      Top = 30000
+      Width = 341000
+    end
+    object Text3: TFlexText
+      property Font
+        Charset = 0
+        Color = -2147483640
+        Name = 'Monotype Corsiva'
+        Size = 36000
+        Style = [fsItalic]
+      end
+      Height = 44000
+      ID = 7
+      Layer = Layer1
+      Left = 3000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Á' )
+      Top = 0
+      Width = 35000
+    end
+  end
+end

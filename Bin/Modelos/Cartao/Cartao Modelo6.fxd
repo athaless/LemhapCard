@@ -1,0 +1,87 @@
+document Document
+  Height = 290000
+  ID = 1
+  Width = 167902
+  object Layer1: TFlexLayer
+    ID = 3
+    Visible = True
+  end
+  object Scheme1: TFlexScheme
+    property Brush
+      Color = 16777215
+    end
+    Default = True
+    ID = 2
+    object Box1: TFlexBox
+      property Brush
+        Color = 535230941
+      end
+      Height = 292000
+      ID = 7
+      Layer = Layer1
+      Left = -1000
+      Top = -1000
+      Width = 172000
+    end
+    object Text1: TFlexText
+      AutoSize = True
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 12000
+      end
+      Height = 18000
+      ID = 4
+      Layer = Layer1
+      Left = 41000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Suzana Gomes' )
+      Top = 22000
+      Width = 108000
+    end
+    object Text2: TFlexText
+      Angle = 90
+      property Font
+        Color = 12632256
+        Name = Arial
+        Size = 18000
+      end
+      Height = 213000
+      ID = 5
+      Layer = Layer1
+      Left = 500
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Gerente de Criação' )
+      Top = 6500
+      Width = 39000
+    end
+    object Text3: TFlexText
+      Alignment = RightJustify
+      AutoSize = True
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 6000
+      end
+      Height = 30000
+      ID = 6
+      Layer = Layer1
+      Left = 59000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Av. Lucas de Oliveira, 129'
+        'Petrópolis / Porto Alegre / RS'
+        'CEP: 93020-001' )
+      Top = 249000
+      Width = 100000
+    end
+  end
+end

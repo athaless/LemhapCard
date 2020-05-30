@@ -1,0 +1,94 @@
+document Document
+  Height = 167902
+  ID = 1
+  Width = 290000
+  object Layer1: TFlexLayer
+    ID = 3
+    Visible = True
+  end
+  object Scheme1: TFlexScheme
+    property Brush
+      Color = 16777215
+    end
+    Default = True
+    ID = 2
+    object Box1: TFlexBox
+      property Brush
+        Color = 534838527
+      end
+      Height = 170000
+      ID = 7
+      Layer = Layer1
+      Left = -2000
+      Top = -1000
+      Width = 294000
+    end
+    object Text1: TFlexText
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 12000
+      end
+      Height = 19500
+      ID = 4
+      Layer = Layer1
+      Left = 10000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Ricardo Ribeiro' )
+      Top = 30500
+      Width = 114500
+    end
+    object Text2: TFlexText
+      Alignment = RightJustify
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 6000
+      end
+      Height = 29500
+      ID = 5
+      Layer = Layer1
+      Left = 178500
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Rua Dr. Flores 2334 / 405'
+        'Centro - Porto Alegre - RS'
+        'Fone: 51 2336-9090' )
+      Top = 130500
+      Width = 101000
+    end
+    object Text1: TFlexText
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 8250
+      end
+      Height = 14000
+      ID = 6
+      Layer = Layer1
+      Left = 10000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Gerente Comercial' )
+      Top = 53000
+      Width = 90000
+    end
+    object Curve1: TFlexCurve
+      Height = 1000
+      ID = 8
+      Layer = Layer1
+      Left = 10000
+      PathPoints = {
+        020000000000000000000000C6BE0200000000000001 }
+      Top = 51000
+      Width = 180910
+    end
+  end
+end

@@ -1,0 +1,86 @@
+document Document
+  Height = 167902
+  ID = 1
+  Width = 290000
+  object Layer1: TFlexLayer
+    ID = 3
+    Visible = True
+  end
+  object Scheme1: TFlexScheme
+    property Brush
+      Color = 16777215
+    end
+    Default = True
+    ID = 2
+    object Box1: TFlexBox
+      property Brush
+        Color = 533454308
+      end
+      Height = 171000
+      ID = 7
+      Layer = Layer1
+      Left = -2000
+      Top = -1000
+      Width = 295000
+    end
+    object Text1: TFlexText
+      Alignment = Center
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 9750
+      end
+      Height = 14000
+      ID = 4
+      Layer = Layer1
+      Left = 76500
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Ricardo Medeiros' )
+      Top = 42000
+      Width = 116000
+    end
+    object Text2: TFlexText
+      Alignment = Center
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 6000
+      end
+      Height = 29000
+      ID = 5
+      Layer = Layer1
+      Left = 40000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Rua Júlio Vieira, 1200'
+        'Tristeza - Porto Alegre - RS'
+        'fone: 51 3249-5660 fax: 51 3249-1212' )
+      Top = 132000
+      Width = 187000
+    end
+    object Text1: TFlexText
+      Alignment = Center
+      property Font
+        Color = -2147483640
+        Name = Arial
+        Size = 8250
+      end
+      Height = 14000
+      ID = 6
+      Layer = Layer1
+      Left = 93000
+      property Pen
+        Style = psClear
+      end
+      Text = (
+        'Diretor Comercial' )
+      Top = 64000
+      Width = 83000
+    end
+  end
+end
